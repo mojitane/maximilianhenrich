@@ -75,7 +75,7 @@ gulp.task('css', () => {
 
 // Compile scss to css.
 gulp.task('scss', () => {
-    return gulp.src('sass/main.sass')
+    return gulp.src('sass/main.scss')
         .pipe($.sass({
             includePaths: ['css'],
             onError: browserSync.notify

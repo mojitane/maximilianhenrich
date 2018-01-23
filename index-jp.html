@@ -1,27 +1,21 @@
 ---
 layout: default
-title: home
+title: ホーム
 permalink: /
 lang: jp
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">日本語のPostsだよん!</h1>
-
-  <ul class="post-list">
+  <h1 class="title">Japanische Posts</h1>
+  <ul class="">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      <li style="margin-bottom: 2em;">
+        <span class="tag is-rounded">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2 class="title is-4">
+          <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
-
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
 </div>
