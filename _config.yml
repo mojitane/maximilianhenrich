@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Maximilian Henrich portfolio site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: monofaktur
-github_username:  monofaktur
+twitter_username: mojitane
+github_username:  mojitane
 
 languages: ["de", "en", "jp"]
 default_lang: "de"

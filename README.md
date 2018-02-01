@@ -41,8 +41,8 @@ $ htmlproofer ./_site
 ```
 
 [license-image]: https://img.shields.io/badge/license-ISC-blue.svg
-[license-url]: https://github.com/monofaktur/maximilianhenrich/blob/master/LICENSE
-[travis-image]: https://travis-ci.org/monofaktur/maximilianhenrich.svg?branch=master
-[travis-url]: https://travis-ci.org/monofaktur/maximilianhenrich
-[dependencyci-image]: https://dependencyci.com/github/monofaktur/maximilianhenrich/badge
-[dependencyci-url]: https://dependencyci.com/github/monofaktur/maximilianhenrich
+[license-url]: https://github.com/mojitane/maximilianhenrich/blob/master/LICENSE
+[travis-image]: https://travis-ci.org/mojitane/maximilianhenrich.svg?branch=master
+[travis-url]: https://travis-ci.org/mojitane/maximilianhenrich
+[dependencyci-image]: https://dependencyci.com/github/mojitane/maximilianhenrich/badge
+[dependencyci-url]: https://dependencyci.com/github/mojitane/maximilianhenrich
