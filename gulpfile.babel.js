@@ -95,7 +95,7 @@ gulp.task('serve', ['jekyll-build'], () => {
     port: 3000
   });
 
-  // Warch html changes.
+  // Watch html changes.
   gulp.watch([
     'css/**/*.css',
     'scripts/**/*.js',
@@ -106,7 +106,7 @@ gulp.task('serve', ['jekyll-build'], () => {
   ], ['jekyll-build', browserSync.reload]);
 
   // Watch sass changes.
-  gulp.watch('sass/**/*.sass', ['scss']);
+  gulp.watch('sass/**/*.scss', ['scss']);
 
   // Watch JavaScript changes.
   gulp.watch('_scripts/**/*.js', ['scripts']);
