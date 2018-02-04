@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{site.active_lang}}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="section">
+      <div class="container">
+        <div class="page-start-header">
+          <div class="header-test">
+            <img class="" src="https://picsum.photos/1344/350" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="post">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  <link async href="{{ "/scripts/main.min.js" | relative_url }}">
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("{{ "/sw.js" | relative_url }}").then(function() {
+      console.log("Service Worker Registered");
+    });
+  }
+  </script>
+  </body>
+
+</html>
