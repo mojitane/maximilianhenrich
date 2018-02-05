@@ -18,9 +18,7 @@
     <div class="section">
       <div class="container">
         <div class="post">
-
           {{ content }}
-
         </div>
       </div>
     </div>
@@ -28,13 +26,7 @@
     {% include footer.html %}
 
   <link async href="{{ "/scripts/main.min.js" | relative_url }}">
-  <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("{{ "/sw.js" | relative_url }}").then(function() {
-      console.log("Service Worker Registered");
-    });
-  }
-  </script>
+  {% include serviceworker.html %}
   </body>
 
 </html>
