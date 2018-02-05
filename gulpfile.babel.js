@@ -101,8 +101,10 @@ gulp.task('serve', ['jekyll-build'], () => {
     'scripts/**/*.js',
     '_includes/**/*.html',
     '_layouts/**/*.html',
+    '*.md',
     '_posts/**/*.md',
-    '*.html'
+    '*.html',
+    '_config.yml',
   ], ['jekyll-build', browserSync.reload]);
 
   // Watch sass changes.
