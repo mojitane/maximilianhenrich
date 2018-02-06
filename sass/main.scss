@@ -12,7 +12,7 @@
     display: block;
   }
 }
-.header-test::after {
+.header-content {
   content: "";
   display: block;
   position: absolute;
@@ -23,6 +23,17 @@
   width: 60%;
   z-index: 10;
 }
+// .header-test::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   right: -20px;
+//   top: -20px;
+//   bottom: -20px;
+//   background-color: rgba(134, 226, 213, 0.8);
+//   width: 60%;
+//   z-index: 10;
+// }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // @import "_base";

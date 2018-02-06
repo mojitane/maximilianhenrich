@@ -1,21 +1,41 @@
 ---
-layout: page-home
+layout: default
 title: Start
 permalink: /
 lang: de
 ---
 
-<div class="home">
-  <h1 class="title">Deutsche Posts</h1>
-  <ul class="">
-    {% for post in site.posts %}
-      <li style="margin-bottom: 2em;">
-        <span class="tag is-rounded">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="title is-4">
-          <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<div class="section">
+  <div class="container">
+    <div class="page-start-header">
+      <div class="header-test">
+        <img class="" src="https://picsum.photos/1344/350" alt="">
+        <div class="header-content">Test</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <span class="title is-size-2">Show the world your passion</span>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="post">
+      <div class="home">
+        <ul class="">
+          {% for post in site.posts %}
+            <li style="margin-bottom: 2em;">
+              <span class="tag is-rounded">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="title is-4">
+                <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h2>
+            </li>
+          {% endfor %}
+        </ul>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      </div>
+    </div>
+  </div>
 </div>
