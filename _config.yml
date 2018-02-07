@@ -24,7 +24,7 @@ github_username:  mojitane
 
 languages: ["de", "en", "jp"]
 default_lang: "de"
-exclude_from_localization: ["javascript", "images", "css"]
+exclude_from_localization: ["javascript", "images", "css", "assets"]
 parallel_localization: false
 
 # Build settings
