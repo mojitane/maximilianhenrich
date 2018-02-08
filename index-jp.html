@@ -5,17 +5,61 @@ permalink: /
 lang: jp
 ---
 
-<div class="home">
-  <h1 class="title">Japanische Posts</h1>
-  <ul class="">
-    {% for post in site.posts %}
-      <li style="margin-bottom: 2em;">
-        <span class="tag is-rounded">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="title is-4">
-          <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<div class="section">
+  <div class="container">
+    <div class="page-start-header">
+      <div class="header-test" style="background-image: url('https://picsum.photos/1344/400?image=366');">
+        <!-- <img class="" src="https://picsum.photos/1344/400?image=366" alt=""> -->
+        <div class="header-content" id="app">
+          <div>
+            <span class="title is-size-2">世界に見せよう、<wordcarousel :word-list="['ゆめを', '趣味を', '好きなものを']"></wordcarousel><span class="blinking-cursor">|</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="svg_header">
+          <div class="image is-square column_svg"><img src="{{ "/images/1.svg" | relative_url }}" alt="" class=""></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi exercitationem natus ratione quaerat ipsum doloribus quam neque magnam nihil laudantium temporibus, eos quod eum aperiam, tempore perspiciatis cum quasi iure!</p>
+      </div>
+      <div class="column">
+        <div class="svg_header">
+          <div class="image is-square column_svg"><img src="{{ "/images/2.svg" | relative_url }}" alt="" class=""></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae totam ut aperiam optio officiis libero eius at quam reiciendis omnis hic eaque voluptatibus quas, numquam recusandae asperiores cupiditate non enim?</p>
+      </div>
+      <div class="column">
+        <div class="svg_header">
+          <div class="image is-square column_svg"><img src="{{ "/images/3.svg" | relative_url }}" alt="" class=""></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quos, iusto temporibus tenetur, vel aliquid repellat autem voluptatum nihil cumque nostrum voluptate alias commodi inventore accusamus quisquam impedit ad quibusdam.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="post">
+      <div class="home">
+        <ul class="">
+          {% for post in site.posts %}
+            <li style="margin-bottom: 2em;">
+              <span class="tag is-rounded">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="title is-4">
+                <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h2>
+            </li>
+          {% endfor %}
+        </ul>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      </div>
+    </div>
+  </div>
 </div>

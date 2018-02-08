@@ -10,9 +10,9 @@ lang: de
     <div class="page-start-header">
       <div class="header-test" style="background-image: url('https://picsum.photos/1344/400?image=366');">
         <!-- <img class="" src="https://picsum.photos/1344/400?image=366" alt=""> -->
-        <div class="header-content">
+        <div class="header-content" id="app">
           <div>
-            <span class="title is-size-2">Show the world your passion<span class="blinking-cursor">|</span></span>
+            <span class="title is-size-2">Show the world your <wordcarousel :word-list="['success', 'passion', 'company']"></wordcarousel><span class="blinking-cursor">|</span></span>
           </div>
         </div>
       </div>
@@ -25,19 +25,19 @@ lang: de
     <div class="columns">
       <div class="column">
         <div class="svg_header">
-          <div class="image is-square column_svg"><img src="images/1.svg" alt="" class=""></div>
+          <div class="image is-square column_svg"><img src="{{ "/images/1.svg" | relative_url }}" alt="" class=""></div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi exercitationem natus ratione quaerat ipsum doloribus quam neque magnam nihil laudantium temporibus, eos quod eum aperiam, tempore perspiciatis cum quasi iure!</p>
       </div>
       <div class="column">
         <div class="svg_header">
-          <div class="image is-square column_svg"><img src="images/2.svg" alt="" class=""></div>
+          <div class="image is-square column_svg"><img src="{{ "/images/2.svg" | relative_url }}" alt="" class=""></div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae totam ut aperiam optio officiis libero eius at quam reiciendis omnis hic eaque voluptatibus quas, numquam recusandae asperiores cupiditate non enim?</p>
       </div>
       <div class="column">
         <div class="svg_header">
-          <div class="image is-square column_svg"><img src="images/3.svg" alt="" class=""></div>
+          <div class="image is-square column_svg"><img src="{{ "/images/3.svg" | relative_url }}" alt="" class=""></div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quos, iusto temporibus tenetur, vel aliquid repellat autem voluptatum nihil cumque nostrum voluptate alias commodi inventore accusamus quisquam impedit ad quibusdam.</p>
       </div>
