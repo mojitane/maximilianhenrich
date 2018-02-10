@@ -1,3 +1,11 @@
+
+window.onload = function() {
+  document.querySelector("#js-cta-button").addEventListener("click", function(event) {
+           jump(100);
+           event.preventDefault();
+  }, false);
+};
+
 Vue.component('wordcarousel', {
   template: '<transition enter-active-class="animated fadeInDown" leave-active-class="animated fadeOutDown" mode="out-in"><span :key="word" style="display:inline-block">{{ word }}</span></transition>',
   props: ['wordList'],
@@ -21,7 +29,6 @@ Vue.component('wordcarousel', {
     }, 3000);
   }
 });
-
 var app = new Vue({
   el: '#app',
 });
