@@ -7,40 +7,56 @@ lang: de
 
 <div class="section">
   <div class="container">
-    <div class="page-start-header">
-      <div class="header-test" style="background-image: url('https://picsum.photos/1344/400?image=366');">
-        <!-- <img class="" src="https://picsum.photos/1344/400?image=366" alt=""> -->
-        <div class="header-content" id="app">
-          <div>
-            <span class="title is-size-2">Show the world your <wordcarousel :word-list="['success', 'passion', 'company']"></wordcarousel><span class="blinking-cursor">|</span></span>
+      <div class="home-header__container" style="background-image: url('https://picsum.photos/1344/400?image=366');">
+        <div class="home-header__content" id="app">
+          <div class="home-header__spacing"></div>
+          <div class="home-header__carousel">
+            <span class="title is-size-2">Zeigen Sie der Welt <wordcarousel :word-list="['Ihre Firma', 'Ihr Hobby', 'Ihr Team', 'Ihre Produkte', 'Ihre Agentur', 'Ihr Restaurant', 'Ihre Begeisterung']"></wordcarousel><span class="blinking-cursor">|</span></span>
+          </div>
+          <div class="home-header__cta">
+            <a href="#" class="button is-medium is-primary is-rounded home-header__button">Gespräch vereinbaren!</a>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
 <div class="section">
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <div class="svg_header">
-          <div class="image is-square column_svg"><img src="{{ "/images/1.svg" | relative_url }}" alt="" class=""></div>
+      <section class="column">
+        <header class="key-points__header">
+          <div class="key-points__svg-container">
+            <div class="image is-square key-points__svg"><img src="{{ "/images/1.svg" | relative_url }}" alt="" class=""></div>
+          </div>
+          <h1 class="title is-size-4 key-points__title"><span>Sauberer Code</span></h1>
+        </header>
+        <div class="key-points__content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure cumque aut, consequatur enim molestiae facere eaque animi, perferendis debitis esse! Voluptatibus illum deleniti earum natus in ipsum placeat similique!</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi exercitationem natus ratione quaerat ipsum doloribus quam neque magnam nihil laudantium temporibus, eos quod eum aperiam, tempore perspiciatis cum quasi iure!</p>
-      </div>
-      <div class="column">
-        <div class="svg_header">
-          <div class="image is-square column_svg"><img src="{{ "/images/2.svg" | relative_url }}" alt="" class=""></div>
+      </section>
+      <section class="column">
+        <header class="key-points__header">
+          <div class="key-points__svg-container">
+            <div class="image is-square key-points__svg"><img src="{{ "/images/2.svg" | relative_url }}" alt="" class=""></div>
+          </div>
+          <h1 class="title is-size-4 key-points__title"><span>Sichtbar für die Welt</span></h1>
+        </header>
+        <div class="key-points__content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure cumque aut, consequatur enim molestiae facere eaque animi, perferendis debitis esse! Voluptatibus illum deleniti earum natus in ipsum placeat similique!</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae totam ut aperiam optio officiis libero eius at quam reiciendis omnis hic eaque voluptatibus quas, numquam recusandae asperiores cupiditate non enim?</p>
-      </div>
-      <div class="column">
-        <div class="svg_header">
-          <div class="image is-square column_svg"><img src="{{ "/images/3.svg" | relative_url }}" alt="" class=""></div>
+      </section>
+      <section class="column">
+        <header class="key-points__header">
+          <div class="key-points__svg-container">
+            <div class="image is-square key-points__svg"><img src="{{ "/images/3.svg" | relative_url }}" alt="" class=""></div>
+          </div>
+          <h1 class="title is-size-4 key-points__title"><span>Informationen</span></h1>
+        </header>
+        <div class="key-points__content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure cumque aut, consequatur enim molestiae facere eaque animi, perferendis debitis esse! Voluptatibus illum deleniti earum natus in ipsum placeat similique!</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quos, iusto temporibus tenetur, vel aliquid repellat autem voluptatum nihil cumque nostrum voluptate alias commodi inventore accusamus quisquam impedit ad quibusdam.</p>
-      </div>
+      </section>
     </div>
   </div>
 </div>
