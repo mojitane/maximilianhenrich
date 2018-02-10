@@ -6,6 +6,10 @@
   font-weight: 500;
 }
 
+.navbar__cta {
+  border-radius: 9999px;
+}
+
 .home-header__container {
   position: relative;
   width: 100%;
@@ -62,43 +66,40 @@
 }
 .key-points__title {
   text-align: center;
-  > span {
-    position: relative;
-  }
-  > span:after {
-    content: "";
-    height: 1em;
-    width: 100%;
-    background: #F62459;
-    //background: linear-gradient(to right, #86e2d5 0%,#b7e9e2 100%);
-    background: linear-gradient(to right, #F62459 0%,#e694a9 100%);
-    z-index: -1;
-    display: block;
-    position: absolute;
-    right: -0.4em;
-    bottom: -0.2em;
-  }
+}
+
+.is-highlighted {
+  position: relative;
+}
+.is-highlighted:after {
+  content: "";
+  height: 1em;
+  width: 100%;
+  background: #F62459;
+  //background: linear-gradient(to right, #86e2d5 0%,#b7e9e2 100%);
+  //background: linear-gradient(to right, #00d1b2 0%, #f1b2c7 100%);
+  background: linear-gradient(to right, #F62459 0%,#e694a9 100%);
+  z-index: -1;
+  display: block;
+  position: absolute;
+  right: -0.4em;
+  bottom: -0.2em;
+}
+.is-highlighted--green:after {
+  background: linear-gradient(to right, #00d1b2 0%, #f1b2c7 100%);
 }
 
 .key-points__content {
   text-align: justify;
 }
 
+.contact-form__header {
+  margin-bottom: 1em;
+}
+
 .animated {
   animation-duration: 0.2s;
 }
-
-// .header-test::after {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   right: -20px;
-//   top: -20px;
-//   bottom: -20px;
-//   background-color: rgba(134, 226, 213, 0.8);
-//   width: 60%;
-//   z-index: 10;
-// }
 
 .blinking-cursor {
   color: #fff;
@@ -112,8 +113,3 @@
     color: #fff;
   }
 }
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-// @import "_base";
-// @import "_layout";
-// @import "_syntax-highlighting";
