@@ -17,6 +17,9 @@
             {% endfor %}
           </div>
           <div class="navbar-end">
+            <div class="navbar-item">
+              <a href="#js-contact-form" class="button is-primary navbar__cta">Gespräch vereinbaren!</a>
+            </div>
             {% for tongue in site.languages %}
               <a {% if tongue == site.active_lang %}style="font-weight: 500;"{% endif %} class="navbar-item" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
             {% endfor %}
