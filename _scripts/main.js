@@ -1,8 +1,15 @@
-
 window.onload = function() {
   document.querySelector("#js-cta-button").addEventListener("click", function(event) {
-           jump(100);
-           event.preventDefault();
+          Jump('#js-contact-form', {
+            duration: 500,
+          });
+          event.preventDefault();
+  }, false);
+  document.querySelector(".js-scroll-top").addEventListener("click", function(event) {
+          Jump('.js-header', {
+            duration: 500,
+          });
+          event.preventDefault();
   }, false);
 };
 

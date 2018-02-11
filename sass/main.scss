@@ -97,6 +97,15 @@
   margin-bottom: 1em;
 }
 
+.footer {
+  position: relative;
+}
+.scroll-top {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
 .animated {
   animation-duration: 0.2s;
 }

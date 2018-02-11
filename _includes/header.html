@@ -1,5 +1,4 @@
-
-<header class="section">
+<header class="section js-header">
 
   <div class="container">
 
@@ -18,7 +17,7 @@
           </div>
           <div class="navbar-end">
             <div class="navbar-item">
-              <a href="#js-contact-form" class="button is-primary navbar__cta">Gespräch vereinbaren!</a>
+              <a href="#" class="button is-primary navbar__cta" id="js-cta-button">Gespräch vereinbaren!</a>
             </div>
             {% for tongue in site.languages %}
               <a {% if tongue == site.active_lang %}style="font-weight: 500;"{% endif %} class="navbar-item" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
