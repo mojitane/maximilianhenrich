@@ -3,6 +3,14 @@ layout: default
 title: Start
 permalink: /
 lang: de
+
+key-title-1: 'Alles aus einer Hand'
+key-text-1: ''
+key-title-2: 'Sichtbar für die Welt, SEO'
+key-text-2: ''
+key-title-3: 'Gefunden werden'
+key-text-3: 'Mit einem fundiert und langfristig aufgestellten Internetauftritt werden Sie gefunden. Mit zunehmender Nutzung des Internets in allen Lebensbereichen auf Computer und Smartphone ist ein solider Internetauftritt auch für lokale Geschäfte essenziell – und für internationale umso mehr.'
+
 ---
 
 <div class="section">
@@ -28,10 +36,12 @@ lang: de
           <div class="key-points__svg-container">
             <div class="image is-square key-points__svg"><img src="{{ "/images/1.svg" | relative_url }}" alt="" class=""></div>
           </div>
-          <h1 class="title is-size-4 key-points__title"><span class="is-highlighted">Sauberer Code</span></h1>
+          <h1 class="title is-size-4 key-points__title"><span class="is-highlighted">{{ page.key-title-1 }}</span></h1>
         </header>
         <div class="key-points__content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure cumque aut, consequatur enim molestiae facere eaque animi, perferendis debitis esse! Voluptatibus illum deleniti earum natus in ipsum placeat similique!</p>
+          <p>
+            {{ page.key-text-1 }}
+          </p>
         </div>
       </section>
       <section class="column is-3">
@@ -39,10 +49,12 @@ lang: de
           <div class="key-points__svg-container">
             <div class="image is-square key-points__svg"><img src="{{ "/images/2.svg" | relative_url }}" alt="" class=""></div>
           </div>
-          <h1 class="title is-size-4 key-points__title"><span class="is-highlighted">Sichtbar für die Welt</span></h1>
+          <h1 class="title is-size-4 key-points__title"><span class="is-highlighted">{{ page.key-title-2 }}</span></h1>
         </header>
         <div class="key-points__content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure cumque aut, consequatur enim molestiae facere eaque animi, perferendis debitis esse! Voluptatibus illum deleniti earum natus in ipsum placeat similique!</p>
+          <p>
+            {{ page.key-text-2 }}
+          </p>
         </div>
       </section>
       <section class="column is-3">
@@ -50,10 +62,12 @@ lang: de
           <div class="key-points__svg-container">
             <div class="image is-square key-points__svg"><img src="{{ "/images/3.svg" | relative_url }}" alt="" class=""></div>
           </div>
-          <h1 class="title is-size-4 key-points__title "><span class="is-highlighted">Informationen</span></h1>
+          <h1 class="title is-size-4 key-points__title "><span class="is-highlighted">{{ page.key-title-3 }}</span></h1>
         </header>
         <div class="key-points__content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure cumque aut, consequatur enim molestiae facere eaque animi, perferendis debitis esse! Voluptatibus illum deleniti earum natus in ipsum placeat similique!</p>
+          <p>
+            {{ page.key-text-3 }}
+          </p>
         </div>
       </section>
       <div class="column"></div>
