@@ -1,14 +1,15 @@
 <section class="section" style="position: relative">
-  <aside style="position:absolute; left: 0; top: 5em; background-color: #F62459; width: 20%; padding: 2em;">
+  <!-- <aside style="position:absolute; left: 0; top: 5em; width: 20%; padding: 2em; background-color: pink;">
     <span class="title" style="color: #fff;">Projekte</span>
-  </aside>
+  </aside> -->
   <div class="container">
     <div class="columns">
-      <div class="column is-5 is-offset-2 is-paddingless" style="background-color: green;">
+      <div class="column is-5 is-offset-2 is-paddingless">
         <a href="{{ site.posts[0].url | relative_url }}" class="">
           <div class="test-container">
             <div class="image is-square"><img src="https://picsum.photos/570/570?image=526" alt=""></div>
-            <div class="test-overlay">
+            <div class="gradient-overlay"></div>
+            <div class="text-overlay">
               <div class="test-text">
                 <p class="is-size-3">{{ site.posts[0].title }}</p>
                 {{ site.posts[0].desc }}
@@ -17,11 +18,12 @@
           </div>
         </a>
       </div>
-      <div class="column is-3 is-paddingless" style="background-color: orange;">
+      <div class="column is-3 is-paddingless">
         <a href="{{ site.posts[1].url | relative_url }}" class="">
           <div class="test-container">
             <div class="image"><img src="https://picsum.photos/342/285?image=1060" alt=""></div>
-            <div class="test-overlay">
+            <div class="gradient-overlay"></div>
+            <div class="text-overlay">
               <div class="test-text">
                 <p class="is-size-3">{{ site.posts[1].title }}</p>
                 {{ site.posts[1].desc }}
@@ -32,7 +34,8 @@
         <a href="{{ site.posts[2].url | relative_url }}" class="">
           <div class="test-container">
             <div class="image"><img src="https://picsum.photos/342/285?image=518" alt=""></div>
-            <div class="test-overlay">
+            <div class="gradient-overlay"></div>
+            <div class="text-overlay">
               <div class="test-text">
                 <p class="is-size-3">{{ site.posts[2].title }}</p>
                 {{ site.posts[2].desc }}
@@ -44,6 +47,23 @@
         <div class="image"><img src="https://picsum.photos/342/285?random" alt=""></div> -->
       </div>
     </div>
+    <div class="columns">
+      <div class="column is-8 is-offset-2 is-paddingless">
+        <a href="{{ site.posts[0].url | relative_url }}" class="">
+          <div class="test-container">
+            <div class="image is-2by1"><img src="https://picsum.photos/912/456" alt=""></div>
+            <div class="gradient-overlay"></div>
+            <div class="text-overlay">
+              <div class="test-text">
+                <p class="is-size-3">{{ site.posts[3].title }}</p>
+                {{ site.posts[3].desc }}
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
     <div class="has-text-centered">
       <a href="#" class="button is-rounded">
         Mehr ansehen
