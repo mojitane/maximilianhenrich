@@ -1,8 +1,9 @@
 @charset 'utf-8';
 @import "./bulma/sass/utilities/initial-variables";
 @import "./bulma/sass/utilities/functions";
-$primary: #1abc9c; //#e74c3c;
-$secondary: #e74c3c;
+$primary: #27A190; //#e74c3c; #c5ebdf
+$secondary: #d2b5e2; //#e7dabd #d2b5e2
+
 $link: $blue;
 $info: $cyan;
 $success: $green;
@@ -10,18 +11,26 @@ $warning: $yellow;
 $danger: $red;
 $dark: $grey-darker;
 $text: $grey-dark;
+
+$navbar-item-color: #666B73;
+$navbar-item-hover-color: darken(#666B73, 20%);
+$navbar-item-active-color: $primary;
+
+
 $gradient-pink: #F62459;
 $gradient-green: #00d1b2;
-$gradient-primary: #e74c3c;
-$gradient-secondary: $gradient-green;
+
+$gradient-primary: $primary;
+$gradient-secondary: $secondary;
 @import './bulma/bulma.sass';
 
+// active menu item
 .is-active {
   font-weight: 500;
 }
 
 .button.is-rounded {
-  //maybe broken?
+  //bulma class doesn't work
   border-radius: 9999px;
 }
 
