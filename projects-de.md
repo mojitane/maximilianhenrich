@@ -1,9 +1,9 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: posts
+title: Projekte
+permalink: /projects/
 lang: de
-order: 2
+order: 3
 ---
 
 DEUTSCH [jekyllrb.com](http://jekyllrb.com/)

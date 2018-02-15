@@ -9,15 +9,21 @@
         </div>
         <div class="navbar-menu is-active">
           <div class="navbar-start">
-            {% for cpage in site.pages %}
+            <!-- {% for cpage in site.pages %}
               {% if cpage.title %}
               <a class="navbar-item {% if page.url == cpage.url %}is-active{% endif %}" href="{{ cpage.url | relative_url }}">{{ cpage.title }}</a>
+              {% endif %}
+            {% endfor %} -->
+            {% assign sorted_pages = site.pages | sort:"order" %}
+            {% for node in sorted_pages %}
+              {% if node.title %}
+                <a class="navbar-item {% if page.url == node.url %}is-active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
               {% endif %}
             {% endfor %}
           </div>
           <div class="navbar-end">
             <div class="navbar-item">
-              <a href="#" class="button is-primary navbar__cta" id="js-cta-button">Gespräch vereinbaren!</a>
+              <a href="#" class="button is-primary navbar__cta is-outlined" id="js-cta-button">Gespräch vereinbaren!</a>
             </div>
             {% for tongue in site.languages %}
               <a {% if tongue == site.active_lang %}style="font-weight: 500;"{% endif %} class="navbar-item" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
