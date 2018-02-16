@@ -10,8 +10,14 @@ key-text-1: 'Vom Konzept, zum Design zur fertigen Seite. Begleitet werden Sie be
 key-title-2: 'Lokal zu Global'
 key-text-2: 'Sind sie bereit den nächsten Schritt zu gehen? Heben Sie sich ab!'
 key-title-3: 'Gefunden werden'
-key-text-3: 'Mit einem fundiert und langfristig aufgestellten Internetauftritt werden Sie gefunden. Für lokale Geschäfte essenziell – und für internationale umso mehr.'
-key-text-3s: 'Beratung zu SEO'
+key-text-3: 'Mit einem fundiert und langfristig aufgestellten Internetauftritt werden Sie gefunden.'
+
+key-title-4: 'In sicheren Händen'
+key-text-4: 'Beratung und Umsetzung von Sicherheitsmaßnamen und SSL. Gehen Sie mit der Zeit und Googles Richtlinien.'
+key-title-5: 'Mobile Applikationen'
+key-text-5: 'Native Applikationen und moderne SPA zur erschließung neuer Märkte.'
+key-title-6: 'Mobile First'
+key-text-6: 'Im Web vertreten auf allen Geräten. Seien Sie Mobile-Ready mit Ihrem Webauftritt im Zeitalter des mobilen Netz – auch im Bereich eCommerce.'
 
 ---
 
@@ -29,54 +35,9 @@ key-text-3s: 'Beratung zu SEO'
       </div>
   </div>
 </div>
-<div class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column"></div>
-      <section class="column is-3">
-        <header class="key-points__header">
-          <div class="key-points__svg-container">
-            <div class="image is-square key-points__svg"><img src="{{ "/images/1.svg" | relative_url }}" alt="" class=""></div>
-          </div>
-          <h1 class="title is-size-4 key-points__title"><span class="is-highlighted">{{ page.key-title-1 }}</span></h1>
-        </header>
-        <div class="key-points__content is-size-5">
-          <p>
-            {{ page.key-text-1 }}
-          </p>
-        </div>
-      </section>
-      <section class="column is-3">
-        <header class="key-points__header">
-          <div class="key-points__svg-container">
-            <div class="image is-square key-points__svg"><img src="{{ "/images/2.svg" | relative_url }}" alt="" class=""></div>
-          </div>
-          <h1 class="title is-size-4 key-points__title"><span class="is-highlighted">{{ page.key-title-2 }}</span></h1>
-        </header>
-        <div class="key-points__content is-size-5">
-          <p>
-            {{ page.key-text-2 }}
-          </p>
-        </div>
-      </section>
-      <section class="column is-3">
-        <header class="key-points__header">
-          <div class="key-points__svg-container">
-            <div class="image is-square key-points__svg"><img src="{{ "/images/3.svg" | relative_url }}" alt="" class=""></div>
-          </div>
-          <h1 class="title is-size-4 key-points__title "><span class="is-highlighted">{{ page.key-title-3 }}</span></h1>
-        </header>
-        <div class="key-points__content is-size-5">
-          <p>
-            {{ page.key-text-3 }}
-          </p>
-        </div>
-      </section>
-      <div class="column"></div>
-    </div>
-  </div>
-</div>
 
-{% include showcase.html %}
+{% include components/key-points.html %}
 
-{% include contact-form.html %}
+{% include components/showcase.html %}
+
+{% include components/contact-form.html %}
