@@ -29,6 +29,10 @@ $gradient-secondary: $secondary;
   font-weight: 500;
 }
 
+::selection {
+  background: $secondary; /* WebKit/Blink Browsers */
+}
+
 .button.is-rounded {
   //bulma class doesn't work
   border-radius: 9999px;
