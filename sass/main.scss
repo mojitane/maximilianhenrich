@@ -25,7 +25,16 @@ $gradient-secondary: $secondary;
 @import './bulma/bulma.sass';
 
 // active menu item
-.is-active {
+.navbar-item.is-active {
+  font-weight: 500;
+}
+
+.navbar-item-language {
+  color: #c3c3c3;
+}
+
+.is-active-language {
+  color: $grey-dark;
   font-weight: 500;
 }
 
@@ -108,6 +117,15 @@ $gradient-secondary: $secondary;
   position: relative;
 }
 
+
+@media (min-width: 450px) {
+  .showcase-image-side {
+    img {
+      min-height: 285px;
+    }
+  }
+}
+
 .text-overlay {
   position: absolute;
   top: 0;
@@ -132,7 +150,7 @@ $gradient-secondary: $secondary;
   width: 100%;
   opacity: 0;
   transition: opacity .4s;
-  background: linear-gradient(to bottom right, rgba($secondary, 0.8) 0%, rgba($primary, 0.3) 100%);
+  background: linear-gradient(to bottom right, rgba($secondary, 0.9) 0%, rgba($primary, 0.5) 100%);
 }
 
 .test-text {
