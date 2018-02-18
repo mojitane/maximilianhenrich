@@ -21,7 +21,7 @@
               <a href="#" class="button is-primary navbar__cta is-outlined" id="js-cta-button">Gespräch vereinbaren!</a>
             </div>
             {% for tongue in site.languages %}
-              <a {% if tongue == site.active_lang %}style="font-weight: 500;"{% endif %} class="navbar-item" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
+              <a class="navbar-item navbar-item-language {% if tongue == site.active_lang %}is-active-language{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
             {% endfor %}
           </div>
         </div>
