@@ -161,6 +161,7 @@ $gradient-secondary: $secondary;
   margin-bottom: -10px;
   transform-origin: 0 0;
   will-change: transform;
+  padding: 1em;
 }
 
 .test-container:hover .gradient-overlay,
