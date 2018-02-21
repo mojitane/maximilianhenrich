@@ -9,26 +9,6 @@
 
     {{ content }}
 
-    <!-- <div class="section">
-      <div class="container">
-        <div class="post">
-          <div class="home">
-            <ul class="">
-              {% for post in site.posts %}
-                <li style="margin-bottom: 2em;">
-                  <span class="tag is-rounded">{{ post.date | date: "%b %-d, %Y" }}</span>
-                  <h2 class="title is-4">
-                    <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                  </h2>
-                </li>
-              {% endfor %}
-            </ul>
-            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     {% include footer.html %}
 
   <!-- <link async href="{{ "/scripts/main.min.js" | relative_url }}"> -->
