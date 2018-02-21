@@ -1,0 +1,24 @@
+.home-header__carousel {
+  .title {
+    font-weight: 400;
+  }
+}
+
+.animated {
+  animation-duration: .2s;
+}
+
+.blinking-cursor {
+  color: $white;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: $white;
+  }
+}
