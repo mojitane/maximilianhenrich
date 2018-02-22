@@ -2,8 +2,15 @@
 layout: post
 title:  "Sommerblut Kulturfestival"
 desc: 'Eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
+summary: 'Die eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
 featured_image: sommer5.jpg
 lang: de
+colors:
+ - "#D0107A"
+ - "#F7CFBA"
+ - "#6F2071"
+ - "#F9F8F8"
+ - "#C88DBF"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways.
 

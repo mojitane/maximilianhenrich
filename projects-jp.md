@@ -2,7 +2,7 @@
 layout: projects
 title: Projects
 permalink: /projects/
-lang: en
+lang: jp
 order: 3
 ---
 

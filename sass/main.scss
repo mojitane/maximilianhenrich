@@ -51,6 +51,67 @@ $gradient-secondary: $p-yellow;
   border-radius: 9999px;
 }
 
+.projects__header {
+  margin-bottom: -1em;
+  padding-left: 3em;
+}
+
+.projects__title {
+  font-size: 9em;
+  color: $primary;
+}
+
+// .projects__title {
+//   // doesn't work in IE or older browsers
+//   background: linear-gradient(126deg, #27a190, $secondary, #F62459, #58ccbc);
+//   background-size: 600% 600%;
+//   animation: AnimationName 30s ease infinite;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-background-clip: text;
+// }
+//
+// @keyframes AnimationName {
+//    0%{background-position:0% 29%}
+//    50%{background-position:100% 72%}
+//    100%{background-position:0% 29%}
+// }
+
+.projectslist__single {
+  margin-bottom: 3em;
+  .title {
+    font-weight: 500;
+  }
+}
+
+.projectslist__image {
+  background-color: #fff;
+  img {
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in-out;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.colorsc__container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  border-radius: 0 0 15px 15px;
+  overflow: hidden;
+}
+
+.colorsc__color {
+  height: 0.5em;
+  flex: 1;
+}
+
+// .projectslist__single:nth-child(even) .columns {
+//     flex-direction: row-reverse;
+// }
+//
+
 .is-highlighted {
   position: relative;
 }

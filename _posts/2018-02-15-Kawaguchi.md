@@ -1,9 +1,15 @@
 ---
 layout: post
 title:  "Tomoko Kawaguchi"
-desc: 'Programmierung und Pflege des internationalen mehrsprachigen Webshop Bioaesthetics.'
+desc: 'Portfolio der japanischen Künstlerin Tomoko Kawaguchi.'
+summary: 'Das Portfolio der japanischen Künstlerin Tomoko Kawaguchi. Basierend auf ihren eigenen Entwürfen wurde ein schlichtes Design ausgearbeitet das ihre Bilder in den Vordergrund rücken lässt. '
 featured_image: kawaguchi3.jpg
 lang: de
+colors:
+ - "#E6DFD0"
+ - "#DDCFC6"
+ - "#595657"
+ - "#9C9A99"
 ---
 
 
