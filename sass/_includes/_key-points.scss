@@ -5,11 +5,17 @@
 .key-points__svg-container {
   max-width: 10em;
   margin: 0 auto;
+  transition: transform 0.1s;
+}
+.key-points__column:hover .key-points__svg-container {
+  transform: rotate(2deg);
+}
+.key-points__column:nth-child(odd):hover .key-points__svg-container {
+  transform: rotate(-2deg);
 }
 
 .key-points__svg {
   margin: 0 auto 1em;
-
   img {
     height: 100%;
   }
