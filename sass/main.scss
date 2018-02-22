@@ -61,20 +61,21 @@ $gradient-secondary: $p-yellow;
   color: $primary;
 }
 
-// .projects__title {
-//   // doesn't work in IE or older browsers
-//   background: linear-gradient(126deg, #27a190, $secondary, #F62459, #58ccbc);
-//   background-size: 600% 600%;
-//   animation: AnimationName 30s ease infinite;
-//   -webkit-text-fill-color: transparent;
-//   -webkit-background-clip: text;
-// }
-//
-// @keyframes AnimationName {
-//    0%{background-position:0% 29%}
-//    50%{background-position:100% 72%}
-//    100%{background-position:0% 29%}
-// }
+.projects__title {
+  // doesn't work in IE or older browsers
+  opacity: 0.7;
+  background: linear-gradient(126deg, #27a190, $secondary, #F62459, #58ccbc);
+  background-size: 600% 600%;
+  animation: AnimationName 60s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes AnimationName {
+   0%{background-position:0% 29%}
+   50%{background-position:100% 72%}
+   100%{background-position:0% 29%}
+}
 
 .projectslist__single {
   margin-bottom: 3em;
@@ -98,7 +99,7 @@ $gradient-secondary: $p-yellow;
   display: flex;
   width: 100%;
   margin: 0;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 7px 7px;
   overflow: hidden;
 }
 

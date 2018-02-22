@@ -4,6 +4,12 @@ title:  "Atelier von Bergen"
 desc: 'Lokal business Studio Bergen website.'
 featured_image: bergen1.jpg
 lang: en
+colors:
+ - "#087958"
+ - "#B64831"
+ - "#8A3D49"
+ - "#F1EEEE"
+ - "#2F1716"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways.
 
