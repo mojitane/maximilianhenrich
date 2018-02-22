@@ -61,3 +61,24 @@
 .showcase__title {
   font-weight: 500;
 }
+
+.showcase__more-container {
+  position: absolute;
+  right: 0;
+  bottom: -4.5em;
+}
+
+.showcase__more-link {
+  color: #6D6B92;
+  font-size: 6em;
+  font-weight: 600;
+  text-transform: lowercase;
+  &:hover {
+    color:  #F62459;
+  }
+  // opacity: 0.7;
+  // background: linear-gradient(126deg, #27a190, $secondary, #F62459, #58ccbc);
+  // background-size: 600% 600%;
+  // -webkit-text-fill-color: transparent;
+  // -webkit-background-clip: text;
+}
