@@ -3,7 +3,7 @@ layout: post
 title:  "Tomoko Kawaguchi"
 desc: 'Portfolio der japanischen Künstlerin Tomoko Kawaguchi.'
 summary: 'Das Portfolio der japanischen Künstlerin Tomoko Kawaguchi. Basierend auf ihren eigenen Entwürfen wurde ein schlichtes Design ausgearbeitet das ihre Bilder in den Vordergrund rücken lässt. '
-featured_image: kawaguchi3.jpg
+featured_image: kawaguchi
 lang: de
 color: "#94b095"
 invertText: true

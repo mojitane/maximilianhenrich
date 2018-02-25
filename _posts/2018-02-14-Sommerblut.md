@@ -3,7 +3,7 @@ layout: post
 title:  "Sommerblut Kulturfestival"
 desc: 'Eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
 summary: 'Die eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
-featured_image: sommer5.jpg
+featured_image: sommer
 lang: de
 color: "#8a89a8"
 invertText: true

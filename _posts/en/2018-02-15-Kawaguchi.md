@@ -2,7 +2,7 @@
 layout: post
 title:  "Tomoko Kawaguchi"
 desc: 'Japanese artist Tomoko Kawaguchis custom portfolio.'
-featured_image: kawaguchi3.jpg
+featured_image: kawaguchi
 lang: en
 colors:
  - "#E6DFD0"

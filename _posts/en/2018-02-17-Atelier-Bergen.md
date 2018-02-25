@@ -2,7 +2,7 @@
 layout: post
 title:  "Atelier von Bergen"
 desc: 'Lokal business Studio Bergen website.'
-featured_image: bergen1.jpg
+featured_image: bergen
 lang: en
 colors:
  - "#087958"

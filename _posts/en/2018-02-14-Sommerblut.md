@@ -2,7 +2,7 @@
 layout: post
 title:  "Sommerblut Culture Festival"
 desc: 'Anual culture festival Sommerblut eventplatform.'
-featured_image: sommer5.jpg
+featured_image: sommer
 lang: en
 colors:
  - "#D0107A"

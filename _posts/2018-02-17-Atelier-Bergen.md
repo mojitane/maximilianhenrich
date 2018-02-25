@@ -3,7 +3,7 @@ layout: post
 title:  "Atelier von Bergen"
 desc: 'Umsetzung der Webseite des Grafikbüros Atelier von Bergen.'
 summary: 'Programmierung des Webauftritts des Grafikbüros Atelier von Bergen. Farbenfroh, mit starkem kontrast, dezenten Animationen und großen Bildern werden eindrucksstark die Key-Points des Büros vermittelt.'
-featured_image: bergen1.jpg
+featured_image: bergen
 lang: de
 color: "#ffe9c9"
 invertText: false

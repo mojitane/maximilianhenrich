@@ -60,19 +60,24 @@ $gradient-secondary: $p-yellow;
   border-radius: 9999px;
 }
 
-.projects__header {
-  margin-bottom: -1em;
-  padding-left: 3em;
+.large-header__container {
+  @media (min-width: 770px) {
+    margin-bottom: -1em;
+    padding-left: 3em;
+  }
 }
 
-.projects__title {
-  font-size: 9em;
+.large-header__title {
+  font-size: 4em;
   color: $primary;
-}
-
-.projects__title {
+  @media (min-width: 550px) {
+    font-size: 7em;
+  }
+  @media (min-width: 770px) {
+    font-size: 9em;
+  }
   // doesn't work in IE or older browsers
-  opacity: 0.7;
+  // opacity: 0.7;
   background: linear-gradient(126deg, #27a190, $secondary, #F62459, #58ccbc);
   background-size: 600% 600%;
   animation: AnimationName 60s ease infinite;
