@@ -5,7 +5,7 @@ desc: 'Eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
 summary: 'Die eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
 featured_image: sommer
 lang: de
-color: "#8a89a8"
+color: "#c06467"
 invertText: true
 colors:
  - "#D0107A"
