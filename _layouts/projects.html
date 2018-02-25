@@ -15,7 +15,7 @@ layout: default
         <article class="projectslist__single">
           <div class="columns">
             <div class="column is-6">
-              <div class="image projectslist__image" style="background-color: {{ post.color }};">
+              <div class="image projectslist__image" style="background-color: {{ post.color | default: "#faf0ef" }};">
                 <a href="{{ post.url }}">
                   <img src="{{ site.baseurl }}/images/projects/{{ post.featured_image }}-s.png" alt="{{ post.title }}">
                 </a>
