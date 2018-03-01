@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Leistungen
 permalink: /about/
 lang: de
 order: 2
