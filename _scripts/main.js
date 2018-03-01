@@ -36,6 +36,8 @@ Vue.component('wordcarousel', {
     }, 3000);
   }
 });
-var app = new Vue({
-  el: '#app',
-});
+if(document.getElementById("app")) {
+  var app = new Vue({
+    el: '#app',
+  });
+}
