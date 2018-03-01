@@ -102,7 +102,7 @@ $gradient-secondary: $p-yellow;
   background-color: #fff;
   img {
     opacity: 0.8;
-    transition: opacity 0.1s ease-in-out;
+    // transition: opacity 0.1s ease-in-out;
     &:hover {
       opacity: 1;
     }
