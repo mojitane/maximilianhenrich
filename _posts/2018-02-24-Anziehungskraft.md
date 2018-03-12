@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Anziehungskraft"
-desc: 'Programmierung und Pflege des internationalen mehrsprachigen Webshop Bioaesthetics.'
+desc: 'Konzeption und Umsetzung: Portfolio der japanischen Künstlerin Tomoko Kawaguchi.'
 summary: 'Programmierung und Pflege des internationalen mehrsprachigen Webshop Bioaesthetics.'
 featured_image: anziehung
 lang: de
+link: http://anziehungskraft.net/
 color: "#ccd6f8"
 invertText: true
 colors:
