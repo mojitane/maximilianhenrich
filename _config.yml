@@ -18,9 +18,14 @@ email: henrich.maximilian@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Maximilian Henrich portfolio site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "maximilianhenrich.de" # the base hostname & protocol for your site
+
+# Contact details
+fullname: Maximilian Henrich
+address: Düsseldorf, Germany
 twitter_username: mojitane
 github_username:  mojitane
+
 
 languages: ["de", "en", "jp"]
 default_lang: "de"
