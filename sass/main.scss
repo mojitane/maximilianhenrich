@@ -21,6 +21,8 @@ $navbar-item-active-color: $primary;
 $p-red: #e1b3b5;
 $p-yellow: #ffe3bc;
 
+$button-hover-color: $black-ter;
+
 $link: $primary;
 $link-hover: #F62459;
 
@@ -102,16 +104,28 @@ $gradient-secondary: $p-yellow;
   }
 }
 
+.projectlist__content {
+  .button {
+    margin: 1em 0 2em;
+  }
+}
+
 .projectslist__image {
   background-color: #fff;
   img {
-    opacity: 0.8;
-    // transition: opacity 0.1s ease-in-out;
+    opacity: 1;
     &:hover {
-      opacity: 1;
+      opacity: 0.9;
     }
   }
 }
+// .projectlist__tag {
+//   display: inline-block;
+//   cursor: pointer;
+//   &:hover {
+//     transform: translateY(-1px);
+//   }
+// }
 
 .colorsc__container {
   display: flex;
@@ -161,6 +175,12 @@ $gradient-secondary: $p-yellow;
 
 .footer {
   position: relative;
+}
+.footer__icon svg {
+  fill: $grey;
+  &:hover {
+    fill: $link-hover;
+  }
 }
 
 .scroll-top {
