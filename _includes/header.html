@@ -2,7 +2,7 @@
 
   <div class="container">
 
-    <nav class="site-nav">
+    <nav class="site-nav is-unselectable">
       <div class="navbar">
         <div class="navbar-brand">
           <a class="navbar-item" href="/{{ site.baseurl }}">maximilian<span style="font-weight:500;">henrich</span></a>
@@ -19,11 +19,11 @@
           <div class="navbar-end">
             {% if page.url == "/" %}
               <div class="navbar-item">
-                <a href="#" class="button is-primary navbar__cta" id="js-cta-button">Gespräch vereinbaren!</a>
+                <a href="#" class="button is-primary navbar__cta" id="js-cta-button">{{ site.cta_text[site.active_lang] }}</a>
               </div>
             {% else %}
               <div class="navbar-item">
-                <a href="/#js-contact-form" class="button is-primary navbar__cta" id="js-cta-button">Gespräch vereinbaren!</a>
+                <a href="/#js-contact-form" class="button is-primary navbar__cta" id="js-cta-button">{{ site.cta_text[site.active_lang] }}</a>
               </div>
             {% endif %}
             {% for tongue in site.languages %}

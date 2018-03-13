@@ -26,6 +26,19 @@ address: Düsseldorf, Germany
 twitter_username: mojitane
 github_username:  mojitane
 
+cta_text:
+  de: Gespräch vereinbaren!
+  en: Let's talk about your project!
+  jp: 話しましょう！
+details_linktext:
+  de: Details
+  en: Details
+  jp: 詳しく
+visit_linktext:
+  de: Besuchen
+  en: View live
+  jp: サイトを見る
+
 
 languages: ["de", "en", "jp"]
 default_lang: "de"
