@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Atelier von Bergen"
 desc: 'Umsetzung der Webseite des Grafikbüros Atelier von Bergen.'
 summary: 'Programmierung des Webauftritts des Grafikbüros Atelier von Bergen. Farbenfroh, mit starkem kontrast, dezenten Animationen und großen Bildern werden eindrucksstark die Key-Points des Büros vermittelt.'

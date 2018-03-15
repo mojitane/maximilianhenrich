@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Tomoko Kawaguchi"
 desc: 'Portfolio der japanischen Künstlerin Tomoko Kawaguchi.'
 summary: 'Das Portfolio der japanischen Künstlerin Tomoko Kawaguchi. Basierend auf ihren eigenen Entwürfen wurde ein schlichtes Design ausgearbeitet das ihre Bilder in den Vordergrund rücken lässt. Für internationales Publikum wurde Mehrsprachigkeit bedacht.'

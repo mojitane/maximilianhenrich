@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Sommerblut Kulturfestival 2017"
 desc: 'Eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
 summary: 'Für das jährliches Kulturfestival Sommerblut wurde ein auf WordPress basiertes Eventsystem ausgearbeitet. Filter, Genres und viel weiteres führt einen schnell zum Ziel.'

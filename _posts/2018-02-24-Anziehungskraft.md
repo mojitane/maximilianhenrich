@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  Anziehungskraft
 desc: 'Farbenfrohe Mode auf einer farbenfrohen Webseite.'
 summary: 'Die Webseite des Kölner Modeatelier Anziehungskraft hat mit seiner neuen Webseite einen frischen und bunten Anstrich bekommen. Große Bilder und ein freundlicher, persönlicher Auftritt laden zum Besuch ein.'

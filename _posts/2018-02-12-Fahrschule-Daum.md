@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Fahrschule Daum"
 desc: 'Neudesign und Programmierung des Auftritts der deutschen Fahrschule Daum.'
 summary: 'Neudesign und Programmierung des Auftritts der deutschen Fahrschule Daum. Orientiert an den Farben des alten originaldesigns wurde eine moderne Webseite entworfen und umgesetzt die zielführend auf allen Gerätegrößen zuverlässig Informationen des Unternehmens anzeigt.'
