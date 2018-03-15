@@ -5,7 +5,8 @@ desc: 'Eventplattform des jährlichen Sommerblut Kulturfestival Köln.'
 summary: 'Für das jährliches Kulturfestival Sommerblut wurde ein auf WordPress basiertes Eventsystem ausgearbeitet. Filter, Genres und viel weiteres führt einen schnell zum Ziel.'
 featured_image: sommer
 lang: de
-color: "#d22c65"
+link: http://2017.sommerblut.de/
+color: "#5a153a"
 invertText: true
 colors:
  - "#D0107A"
