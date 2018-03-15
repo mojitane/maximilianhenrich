@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="section">
+  <div class="container">
+    <header class="project__header">
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="tag">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+    <div class="columns">
+      <div class="column is-4">
+        <div class="browser-mockup">
+          <div>
+            <img src="{{ site.baseurl }}/images/projects/{{ page.featured_image }}-f.png" alt="{{ post.title }}">
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <article class="content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
