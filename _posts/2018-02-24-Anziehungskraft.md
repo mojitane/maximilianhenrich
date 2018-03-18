@@ -7,7 +7,7 @@ featured_image: anziehung
 lang: de
 link: http://anziehungskraft.net/
 color: "#ccd6f8"
-invertText: true
+invertText: false
 colors:
  - "#4D4C50"
  - "#d1213e"

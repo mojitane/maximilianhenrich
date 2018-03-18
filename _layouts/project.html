@@ -3,19 +3,32 @@ layout: default
 ---
 <div class="section">
   <div class="container">
-    <header class="project__header">
-      <h1 class="title">{{ page.title }}</h1>
-      <p class="tag">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <header class="project__header columns" style="background-color: {{page.color | default: "#faf0ef" }}">
+      <div class="column is-offset-1">
+        <nav class="breadcrumb is-small project__header-breadcrumb {% if page.invertText %}project__header-breadcrumb--invert{% endif %}" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+          </ul>
+        </nav>
+        <h1 class="title" style="{% if page.invertText %}color: #fff;{% endif %}">{{ page.title }}</h1>
+        <div class="tags">
+          {% for tag in page.tags %}
+            <span class="tag" style="{% if page.invertText %}color: #fff;{% endif %}">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
     </header>
     <div class="columns">
-      <div class="column is-4">
+      <div class="column is-3 is-offset-1">
         <div class="browser-mockup">
-          <div>
+          <div class="browser-mockup__imagecontainer">
             <img src="{{ site.baseurl }}/images/projects/{{ page.featured_image }}-f.png" alt="{{ post.title }}">
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column is-7">
         <article class="content">
           {{ content }}
         </article>
