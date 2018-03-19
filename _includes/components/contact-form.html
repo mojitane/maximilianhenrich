@@ -1,21 +1,31 @@
 <section class="contact-form section" id="js-contact-form">
   <div class="container">
+    <header class="has-text-centered contact-form__header">
+      <h1 class="title"><span class="is-highlighted">Jetzt anfragen!</span></h1>
+    </header>
     <div class="columns">
-      <div class="column is-half is-offset-one-quarter">
-
-        <header class="has-text-centered contact-form__header">
-          <h1 class="title"><span class="is-highlighted">Jetzt anfragen!</span></h1>
-        </header>
-
+      <div class="column is-6 is-offset-3">
         <form method="POST" action="http://formspree.io/henrich.maximilian@gmail.com">
+
           <div class="field">
-            <div class="control">
-              <input class="input" type="email" name="email" placeholder="Deine E-Mail-Adresse">
+            <label class="label">Absender</label>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" type="email" name="email" placeholder="E-Mail-Adresse">
+                </div>
+              </div>
             </div>
           </div>
           <div class="field">
-            <div class="control">
-              <textarea class="textarea" name="message" placeholder="Deine Nachricht"></textarea>
+            <label class="label">Nachricht</label>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <textarea class="textarea" name="message" placeholder="Nachricht"></textarea>
+                </div>
+                <p class="help">Großartige Ideen sollten nicht warten müssen! 💻</p>
+              </div>
             </div>
           </div>
 
@@ -24,7 +34,7 @@
           <input type="hidden" name="_language" value="de" />
 
           <div class="field">
-            <div class="control">
+            <div class="control has-text-centered">
               <button class="button is-primary" type="submit">Senden</button>
             </div>
           </div>

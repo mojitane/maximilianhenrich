@@ -1,3 +1,9 @@
+.header-section {
+  @media (max-width: 1024px) {
+    padding: 1.5rem;
+  }
+}
+
 .home-header__container {
   position: relative;
   width: 100%;

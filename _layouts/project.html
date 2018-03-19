@@ -7,8 +7,8 @@ layout: default
       <div class="column is-offset-1">
         <nav class="breadcrumb is-small project__header-breadcrumb {% if page.invertText %}project__header-breadcrumb--invert{% endif %}" aria-label="breadcrumbs">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
             <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
           </ul>
         </nav>
@@ -24,9 +24,13 @@ layout: default
       <div class="column is-3 is-offset-1">
         <div class="browser-mockup">
           <div class="browser-mockup__imagecontainer">
-            <img src="{{ site.baseurl }}/images/projects/{{ page.featured_image }}-f.png" alt="{{ post.title }}">
+            <img src="{{ site.baseurl }}/images/projects/{{ page.featured_image }}-f.png" alt="{{ page.title }}">
           </div>
         </div>
+        <a href="{{page.link}}" class="button is-small tooltip is-fullwidth" target="_blank" data-tooltip="{{page.link}}">
+          <span class="icon is-small"><svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#a7a7a7" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" /></svg></span>
+          <span>{{ site.visit_linktext[site.active_lang] }}</span>
+        </a>
       </div>
       <div class="column is-7">
         <article class="content">
