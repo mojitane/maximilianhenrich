@@ -15,6 +15,9 @@ layout: default
         <h1 class="title" style="{% if page.invertText %}color: #fff;{% endif %}">{{ page.title }}</h1>
         <div class="tags">
           {% for tag in page.tags %}
+            <span class="tag" style="background-color: rgba(255, 255, 255, 0.9);">{{ tag }}</span>
+          {% endfor %}
+          {% for tag in page.techtags %}
             <span class="tag" style="{% if page.invertText %}color: #fff;{% endif %}">{{ tag }}</span>
           {% endfor %}
         </div>

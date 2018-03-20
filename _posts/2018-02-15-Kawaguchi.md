@@ -13,7 +13,11 @@ colors:
  - "#DDCFC6"
  - "#595657"
  - "#9C9A99"
-tag:
+tags:
+ - Programmierung
+ - Hosting
+ - Beratung
+techtags:
  - WordPress
  - Timber
  - ACF

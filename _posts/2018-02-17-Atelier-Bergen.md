@@ -14,10 +14,12 @@ colors:
  - "#8A3D49"
  - "#F1EEEE"
  - "#2F1716"
-tag:
- - "Perch CMS"
- - "Image Gallery"
- - "Single Page"
+tags:
+ - Programmierung
+techtags:
+ - Perch CMS
+ - Image Gallery
+ - Single Page
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways.
 

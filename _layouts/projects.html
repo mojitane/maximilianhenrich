@@ -32,7 +32,7 @@ layout: default
               <!-- <p>{{ post.category }}</p> -->
               <p>{{ post.summary }}</p>
               <div class="buttons">
-                <a href="{{ post.url }}" class="button is-primary is-outlined is-small">{{ site.details_linktext[site.active_lang] }}</a>
+                <a href="{{ post.url }}" class="button is-primary is-small">{{ site.details_linktext[site.active_lang] }}</a>
                 {% if post.link %}
                 <a href="{{post.link}}" class="button is-outlined is-borderless is-small tooltip is-tooltip-primary" target="_blank" data-tooltip="{{post.link}}">
                   <span class="icon is-small"><svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#a7a7a7" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" /></svg></span>
@@ -43,6 +43,9 @@ layout: default
               <div class="tags projectlist__tags" style="margin-top: 1em;">
                 {% for tag in post.tags %}
                   <span class="tag projectlist__tag" style="background-color:{{ post.color | default: "#faf0ef" }}; {% if post.invertText %}color: #fff;{% endif %}">{{ tag }}</span>
+                {% endfor %}
+                {% for tag in post.techtags %}
+                  <span class="tag projectlist__tag" style="background-color: #fff; border: 1px solid {{ post.color | default: "#a7a7a7" }}">{{ tag }}</span>
                 {% endfor %}
               </div>
             </div>

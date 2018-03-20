@@ -14,7 +14,10 @@ colors:
  - "#6F2071"
  - "#F9F8F8"
  - "#C88DBF"
-tag:
+tags:
+ - Programmierung
+ - Webseitenpflege
+techtags:
  - WordPress
  - The Events Calendar
  - ACF
