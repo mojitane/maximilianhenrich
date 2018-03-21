@@ -28,7 +28,7 @@
               </div>
             {% else %}
               <div class="navbar-item">
-                <a href="/#js-contact-form" class="button is-primary navbar__cta" id="js-cta-button">{{ site.cta_text[site.active_lang] }}</a>
+                <a href="/{{[site.active_lang]}}/#js-contact-form" class="button is-primary navbar__cta" id="js-cta-button">{{ site.cta_text[site.active_lang] }}</a>
               </div>
             {% endif %}
             {% for tongue in site.languages %}

@@ -1,7 +1,7 @@
 <section class="contact-form section" id="js-contact-form">
   <div class="container">
     <header class="has-text-centered contact-form__header">
-      <h1 class="title"><span class="is-highlighted">Jetzt anfragen!</span></h1>
+      <h1 class="title"><span class="is-highlighted">{{ site.contat-form-title[site.active_lang] }}</span></h1>
     </header>
     <div class="columns">
       <div class="column is-6 is-offset-3">
@@ -12,7 +12,7 @@
             <div class="field-body">
               <div class="field">
                 <div class="control">
-                  <input class="input" type="email" name="email" placeholder="E-Mail-Adresse">
+                  <input class="input" type="email" name="email" placeholder="E-Mail">
                 </div>
               </div>
             </div>
@@ -22,7 +22,7 @@
             <div class="field-body">
               <div class="field">
                 <div class="control">
-                  <textarea class="textarea" name="message" placeholder="Nachricht"></textarea>
+                  <textarea class="textarea" name="message" placeholder="{{ site.contat-form-message[site.active_lang] }}"></textarea>
                 </div>
                 <p class="help">{{ site.contat-form-help[site.active_lang] }}</p>
               </div>

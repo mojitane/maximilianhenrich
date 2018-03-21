@@ -13,7 +13,6 @@ colors:
  - "#d1213e"
  - "#1e49b1"
 tags:
- - Design
  - Programmierung
 techtags:
  - Grav
