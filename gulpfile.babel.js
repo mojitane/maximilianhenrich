@@ -146,7 +146,7 @@ gulp.task('jekyll-build-for-deploy', $.shell.task(['bundle exec jekyll build']))
 // Default task.
 gulp.task('build', () =>
   runSequence(
-    'fix-config',
+    // 'fix-config',
     'cleanup-build',
     'scss',
     'scripts',
@@ -155,7 +155,7 @@ gulp.task('build', () =>
     'css',
     'generate-service-worker',
     'minify-images',
-    'revert-config'
+    // 'revert-config'
   )
 );
 
