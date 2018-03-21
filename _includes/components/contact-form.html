@@ -8,7 +8,7 @@
         <form method="POST" action="http://formspree.io/hello@maximilianhenrich.de">
 
           <div class="field">
-            <label class="label">Absender</label>
+            <label class="label">{{ site.contat-form-from[site.active_lang] }}</label>
             <div class="field-body">
               <div class="field">
                 <div class="control">
@@ -18,13 +18,13 @@
             </div>
           </div>
           <div class="field">
-            <label class="label">Nachricht</label>
+            <label class="label">{{ site.contat-form-message[site.active_lang] }}</label>
             <div class="field-body">
               <div class="field">
                 <div class="control">
                   <textarea class="textarea" name="message" placeholder="Nachricht"></textarea>
                 </div>
-                <p class="help">Großartige Ideen sollten nicht warten müssen! 💻</p>
+                <p class="help">{{ site.contat-form-help[site.active_lang] }}</p>
               </div>
             </div>
           </div>

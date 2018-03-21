@@ -1,21 +1,28 @@
 ---
-layout: post
+layout: project
 title:  "Tomoko Kawaguchi"
-desc: 'Japanese artist Tomoko Kawaguchis custom portfolio.'
+desc: 'Elegant art showcase for Japanese artist Kawaguchi.'
+summary: 'Together with Japanese artist Kawaguchi we developed a minimalist but elegant art showcase.'
 featured_image: kawaguchi
 lang: en
+link: https://tomokokawaguchi.com/
+color: "#94b095"
+invertText: true
 colors:
  - "#E6DFD0"
  - "#DDCFC6"
  - "#595657"
  - "#9C9A99"
+tags:
+ - Programming
+ - Hosting
+ - Consulting
+techtags:
+ - WordPress
+ - Timber
+ - ACF
+ - Portfolio
 ---
-
-
-![]({{ "/images/kawaguchi1.jpg" | absolute_url }})
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-[Macbook Pro Mockup by Tomasz Mikrut](https://www.behance.net/gallery/60994081/Mockup-Macbook-Pro-(2017))
+The Japanese artist Tomoko Kawaguchi wanted to show her newer work on a simple portfolio.
+I implemented her design ideas using a custom Wordpress Theme, Timber (Twig), and Advanced Custom Fields. To protect her work all images get automatically watermarked.
+All functions were implemented using the Japanese language and the client got introduced to the system

@@ -38,7 +38,22 @@ visit_linktext:
   de: Besuchen
   en: View live
   jp: サイトを見る
-
+contat-form-help:
+  de: Großartige Ideen sollten nicht warten müssen! 💻
+  en: Great ideas shouldn't have to wait! 💻
+  jp: Great ideas shouldn't have to wait! 💻
+contat-form-title:
+  de: Jetzt starten!
+  en: Now is the time to get started!
+  jp: コンタクト
+contat-form-from:
+  de: Absender
+  en: From
+  jp: メール
+contat-form-message:
+  de: Nachricht
+  en: Message
+  jp: メッセージ
 
 languages: ["de", "en", "jp"]
 default_lang: "de"
